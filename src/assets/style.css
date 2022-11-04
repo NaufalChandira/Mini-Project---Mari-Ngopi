@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+.header {
+    background-color: #F1EFDC;
+}
+
+.header-title {
+    font-size: 30px;
+    margin-right: 700px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.btn-menu {
+    margin-bottom: 100px;
+}
+
+.btn-title {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.img-logo {
+    width: 1100px;
+    padding-left: 500px;
+}
+
+
+body {
+    background-image: url(./pexels-lood-goosen-1235706.jpg);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 90px;
+    padding-left: 300px;
+}
+
+.home1 {
+    color: white;
+    padding-top: 90px;
+    margin-left: -500px;
+}
+
+.home2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 90px;
+    margin-left: 200px;
+}
+
+.catalogue {
+    padding-top: 100px;
+
+}
+
+.title-ctlg {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.title-text {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.img-crsl {
+    height: 700px;
+    width: 900px;
+    padding-top: 50px;
+}
+
+.header-home {
+    padding-top: 100px;
+}
+
+.menu {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.title-address {
+    font-size: 25px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.menu-title {
+    font-size: 20px;
+}
+
+.table-kmtr {
+    margin-top: 100px;
+}
+
+.form-position {
+    padding-top: 150px;
+}
+
+.font {
+    font-family: 'Oswald', sans-serif;
+}
+
+.about {
+    color: white;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-tbl {
+    margin-top: 150px;
+    color: white;
+}
+
+.form-title {
+    color: white;
+    padding-top: 150px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form-title-kmtr {
+    color: white;
+    padding-top: 150px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -200px
+}
+
+.form-input {
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+.btn-form {
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px
+}
+
+.komentar {
+    color: white;
+    margin-left: 80px;
+}
+
+.title-ctlg1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
