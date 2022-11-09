@@ -1,4 +1,3 @@
-import {Link} from "react-router-dom"
 import Header from "../components/header"
 import Profile from "../assets/profile.jpg"
 
@@ -20,7 +19,6 @@ export default function AboutUs () {
         <br />
         <i className="bi bi-envelope">hadinaufal11@gmail.com</i>
         <br />
-        <Link to="/admin">Admin</Link>
         </center>
         </div>
         </>
