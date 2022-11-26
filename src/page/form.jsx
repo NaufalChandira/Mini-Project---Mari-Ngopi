@@ -12,28 +12,6 @@ export default function Form() {
     const name = e.target.name;
     const value = e.target.value;
     setInput(name, value);
-
-    if (name === "nama") {
-      if (!regexNama.test(value)) {
-        setErrorMassage({...errorMassage, [name]: 'Nama Lengkap Harus Berupa Huruf'})
-      } else {
-        setErrorMassage({...errorMassage, [name]: ''})
-      }
-    }
-    if (name === "tempat") {
-      if (!regexTempat.test(value)) {
-        setErrorMassage({...errorMassage, [name]: 'Nama Tempat Lengkap Harus Berupa Huruf'})
-      } else {
-        setErrorMassage({...errorMassage, [name]: ''})
-      }
-    }
-    if (name === "tempat") {
-      if (!regexKomentar.test(value)) {
-        setErrorMassage({...errorMassage, [name]: 'Komentar Tidak Sesuai'})
-      } else {
-        setErrorMassage({...errorMassage, [name]: ''})
-      }
-    }
   };
 
   const handleOnSubmit = (e) => {
@@ -49,23 +27,6 @@ export default function Form() {
     return newToDoList;
   };
 
-  //Testing
-
-  const baseData = {
-    nama: "",
-    tempat: "",
-    komentar: "",
-  }
-  const baseError = {
-    nama: "",
-    tempat: "",
-    komentar: "",
-  }
-  const [data] = useState(baseData);
-  const [errorMassage, setErrorMassage] = useState(baseError);
-  const regexNama = /^[A-Za-z ]*$/
-  const regexTempat = /^[A-Za-z ]*$/
-  const regexKomentar = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
 
 
   return (
@@ -86,7 +47,6 @@ export default function Form() {
                 name="nama"
                 aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-sm"
-                value={data.nama}
               />
             </div>
             <br />
@@ -97,7 +57,6 @@ export default function Form() {
               className="me-4 input-text form-select"
               name="konten"
               aria-label="Default select example"
-              value={data.tempat}
             >
               <option selected>Open this select menu</option>
               <option>Teras Rumah Nenek</option>
@@ -120,7 +79,6 @@ export default function Form() {
                 name="isi"
                 aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-sm"
-                value={data.komentar}
               />
             </div>
           </div>
